@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    
+}
+body{
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/041/601/775/original/ida-franzen-karlsson-background-animation.gif?1632167232') ;
+}
+/* Estilos para o header */
+.header {
+    display: flex; /* Usando flexbox para organizar os itens */
+    justify-content: center; /* Centraliza todo o conteúdo dentro do header */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    padding: 20px; /* Espaçamento interno */
+    background-color: transparent; /* Cor de fundo do header */
+}
+
+/* Estilos para a barra de navegação */
+.nav-bar-list {
+    display: flex; /* Organiza os itens de navegação de forma horizontal */
+    justify-content: center; /* Centraliza o conteúdo dentro da navegação */
+    align-items: center; /* Alinha verticalmente os itens dentro da navegação */
+    gap: 250px; /* Espaçamento entre os elementos (logo, itens de navegação e botões) */
+}
+
+/* Estilos para a logo */
+.logo h1 {
+    color: white; /* Cor do texto da logo */
+    margin: 0; /* Remover margem */
+    font-size: 24px; /* Tamanho da fonte da logo */
+    font-weight: bold; /* Fonte em negrito */
+}
+
+/* Estilos para a lista de navegação */
+.list-card ul {
+    display: flex; /* Itens em linha */
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento */
+}
+
+.item-list {
+    margin: 0 10px; /* Espaço horizontal entre os itens */
+}
+
+.item-list a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilos para os botões */
+.botoes button {
+    background-color: #2558eb; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    margin-left: 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+}
+
+/* Estilos quando o botão é focado ou em hover */
+.botoes button:hover {
+    background-color: #352184; /* Cor do botão ao passar o mouse */
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    border-radius: 5px;
+    flex-direction: column;
+}
+.main-1, .main-2{
+    display: flex;
+    width: 30%;
+    height: 60%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: white;
+}
+.main-1 h1{
+    text-align: center;
+    font-size: 36px;
+}
+.main-1 p{
+    text-align: center;
+}
+.main-1 button{
+    width: 25%;
+}
+button{
+    background-color: #2558eb; 
+    color: white; 
+    border: none; 
+    padding: 7px 10px; 
+    margin-left: 10px; 
+    cursor: pointer; 
+    border-radius: 50px;
+}
+button:hover{
+    background-color: #0e1a3e;
+}
+button:active{
+    background-color: #92aaf2;
+}
+
